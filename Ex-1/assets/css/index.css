@@ -1,0 +1,57 @@
+
+.search_container button {
+    border-radius: 0 9px 9px 0;
+    background: #0973AD;
+    padding: 10px 20px;
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.home_bg input {
+    border-radius: 8px 0 0 8px;
+    background: rgba(255, 255, 255, 0.70);
+    color: #666;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border: none;
+}
+
+
+
+.home_Section {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+
+.home_Section h1 {
+    color: #000;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+
+.home_Section h1 span {
+    color: #DC1111;
+}
+
+.home_bg {
+    /* background-image: url('../images/home_background.jpg');
+    background-size: cover;
+    background-position: center; */
+    background-color: #F49D36;
+}
+
+.search_container {
+    display: flex;
+    gap: 0px;
+}
+
+.home_img {
+    width: 50%;
+    height: 100%;
+}

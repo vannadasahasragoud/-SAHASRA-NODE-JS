@@ -1,0 +1,81 @@
+/* ===== Card ===== */
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+    overflow: hidden;
+}
+
+.card button {
+    background-color: #0973AD;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.card-footer {
+    margin: 30px auto 10px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.card button:hover {
+    background-color: #075a87;
+}
+
+.card-body {
+    padding: 20PX;
+}
+
+.card h4 {
+    color: #000;
+    font-size: 36.432px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.cards_block{
+    /* display: grid; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+   
+
+}
+
+/* =========================================
+   RESPONSIVE BREAKPOINTS
+   ========================================= */
+
+/* Tablets */
+@media (max-width: 768px) {
+    .card {
+        margin: 60px auto;
+        max-width: 340px;
+        height: auto;
+        min-height: 280px;
+    }
+
+
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+    .card {
+        margin: 10px auto;
+        max-width: 90%;
+        padding: 16px;
+        height: auto;
+        min-height: 260px;
+    }
+
+    .card button {
+        width: 100%;
+        padding: 12px;
+        font-size: 15px;
+    }
+}

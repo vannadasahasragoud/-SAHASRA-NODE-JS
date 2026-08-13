@@ -1,0 +1,84 @@
+/* ===== Card ===== */
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 117px auto;
+    max-height: 400px;
+    max-width: 400px;
+    text-align: center;
+}
+
+.card input[type="submit"] {
+    background-color: #0973AD;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.card button:hover {
+    background-color: #075a87;
+}
+
+/* ===== Form Group ===== */
+.form-group {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    /* text-align: left; */
+}
+
+.form-group .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px; /* prevents iOS auto-zoom on focus */
+}
+
+.form-group .form-control:focus {
+    border-color: #0973AD;
+    outline: none;
+}
+
+/* =========================================
+   RESPONSIVE BREAKPOINTS
+   ========================================= */
+
+/* Tablets */
+@media (max-width: 768px) {
+    .card {
+        margin: 60px auto;
+        max-width: 340px;
+        height: auto;
+        min-height: 280px;
+    }
+
+    .form-group {
+        margin-bottom: 12px;
+        margin-top: 12px;
+    }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+    .card {
+        margin: 40px auto;
+        max-width: 90%;
+        padding: 16px;
+        height: auto;
+        min-height: 260px;
+    }
+
+    .card button {
+        width: 100%;
+        padding: 12px;
+        font-size: 15px;
+    }
+}
